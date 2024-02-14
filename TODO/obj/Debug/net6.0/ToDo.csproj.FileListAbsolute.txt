@@ -33,3 +33,38 @@ Z:\B\בניהו שושנה\‏‏תיקיה חדשה\core\ToDo\obj\Debug\net6.0\
 Z:\B\בניהו שושנה\‏‏תיקיה חדשה\core\ToDo\obj\Debug\net6.0\ToDo.pdb
 Z:\B\בניהו שושנה\‏‏תיקיה חדשה\core\ToDo\obj\Debug\net6.0\ToDo.genruntimeconfig.cache
 Z:\B\בניהו שושנה\‏‏תיקיה חדשה\core\ToDo\obj\Debug\net6.0\ref\ToDo.dll
+Z:\mora\זילברברג\2024-01-23\OurMiddleware\core\TODO\obj\Debug\net6.0\ToDo.csproj.AssemblyReference.cache
+Z:\mora\זילברברג\2024-01-23\OurMiddleware\core\TODO\obj\Debug\net6.0\ToDo.GeneratedMSBuildEditorConfig.editorconfig
+Z:\mora\זילברברג\2024-01-23\OurMiddleware\core\TODO\obj\Debug\net6.0\ToDo.AssemblyInfoInputs.cache
+Z:\mora\זילברברג\2024-01-23\OurMiddleware\core\TODO\obj\Debug\net6.0\ToDo.AssemblyInfo.cs
+Z:\mora\זילברברג\2024-01-23\OurMiddleware\core\TODO\obj\Debug\net6.0\ToDo.csproj.CoreCompileInputs.cache
+Z:\mora\זילברברג\2024-01-23\OurMiddleware\core\TODO\obj\Debug\net6.0\ToDo.MvcApplicationPartsAssemblyInfo.cs
+Z:\mora\זילברברג\2024-01-23\OurMiddleware\core\TODO\obj\Debug\net6.0\ToDo.MvcApplicationPartsAssemblyInfo.cache
+Z:\mora\זילברברג\2024-01-23\OurMiddleware\core\TODO\obj\Debug\net6.0\ToDo.dll
+Z:\mora\זילברברג\2024-01-23\OurMiddleware\core\TODO\obj\Debug\net6.0\refint\ToDo.dll
+Z:\mora\זילברברג\2024-01-23\OurMiddleware\core\TODO\obj\Debug\net6.0\ToDo.pdb
+Z:\mora\זילברברג\2024-01-23\OurMiddleware\core\TODO\bin\Debug\net6.0\appsettings.Development.json
+Z:\mora\זילברברג\2024-01-23\OurMiddleware\core\TODO\bin\Debug\net6.0\appsettings.json
+Z:\mora\זילברברג\2024-01-23\OurMiddleware\core\TODO\bin\Debug\net6.0\ToDo.staticwebassets.runtime.json
+Z:\mora\זילברברג\2024-01-23\OurMiddleware\core\TODO\bin\Debug\net6.0\ToDo.exe
+Z:\mora\זילברברג\2024-01-23\OurMiddleware\core\TODO\bin\Debug\net6.0\ToDo.deps.json
+Z:\mora\זילברברג\2024-01-23\OurMiddleware\core\TODO\bin\Debug\net6.0\ToDo.runtimeconfig.json
+Z:\mora\זילברברג\2024-01-23\OurMiddleware\core\TODO\bin\Debug\net6.0\ToDo.dll
+Z:\mora\זילברברג\2024-01-23\OurMiddleware\core\TODO\bin\Debug\net6.0\ToDo.pdb
+Z:\mora\זילברברג\2024-01-23\OurMiddleware\core\TODO\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+Z:\mora\זילברברג\2024-01-23\OurMiddleware\core\TODO\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+Z:\mora\זילברברג\2024-01-23\OurMiddleware\core\TODO\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+Z:\mora\זילברברג\2024-01-23\OurMiddleware\core\TODO\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+Z:\mora\זילברברג\2024-01-23\OurMiddleware\core\TODO\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+Z:\mora\זילברברג\2024-01-23\OurMiddleware\core\TODO\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+Z:\mora\זילברברג\2024-01-23\OurMiddleware\core\TODO\bin\Debug\net6.0\Microsoft.OpenApi.dll
+Z:\mora\זילברברג\2024-01-23\OurMiddleware\core\TODO\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+Z:\mora\זילברברג\2024-01-23\OurMiddleware\core\TODO\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+Z:\mora\זילברברג\2024-01-23\OurMiddleware\core\TODO\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+Z:\mora\זילברברג\2024-01-23\OurMiddleware\core\TODO\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+Z:\mora\זילברברג\2024-01-23\OurMiddleware\core\TODO\obj\Debug\net6.0\staticwebassets.build.json
+Z:\mora\זילברברג\2024-01-23\OurMiddleware\core\TODO\obj\Debug\net6.0\staticwebassets.development.json
+Z:\mora\זילברברג\2024-01-23\OurMiddleware\core\TODO\obj\Debug\net6.0\scopedcss\bundle\ToDo.styles.css
+Z:\mora\זילברברג\2024-01-23\OurMiddleware\core\TODO\obj\Debug\net6.0\ToDo.csproj.CopyComplete
+Z:\mora\זילברברג\2024-01-23\OurMiddleware\core\TODO\obj\Debug\net6.0\ToDo.genruntimeconfig.cache
+Z:\mora\זילברברג\2024-01-23\OurMiddleware\core\TODO\obj\Debug\net6.0\ref\ToDo.dll

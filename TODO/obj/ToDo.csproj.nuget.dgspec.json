@@ -1,33 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\B\\בניהו שושנה\\‏‏תיקיה חדשה\\core\\ToDo\\ToDo.csproj": {}
+    "Z:\\mora\\זילברברג\\2024-01-23\\OurMiddleware\\core\\TODO\\ToDo.csproj": {}
   },
   "projects": {
-    "Z:\\B\\בניהו שושנה\\‏‏תיקיה חדשה\\core\\ToDo\\ToDo.csproj": {
+    "Z:\\mora\\זילברברג\\2024-01-23\\OurMiddleware\\core\\TODO\\ToDo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\B\\בניהו שושנה\\‏‏תיקיה חדשה\\core\\ToDo\\ToDo.csproj",
+        "projectUniqueName": "Z:\\mora\\זילברברג\\2024-01-23\\OurMiddleware\\core\\TODO\\ToDo.csproj",
         "projectName": "ToDo",
-        "projectPath": "Z:\\B\\בניהו שושנה\\‏‏תיקיה חדשה\\core\\ToDo\\ToDo.csproj",
+        "projectPath": "Z:\\mora\\זילברברג\\2024-01-23\\OurMiddleware\\core\\TODO\\ToDo.csproj",
         "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
-        "outputPath": "Z:\\B\\בניהו שושנה\\‏‏תיקיה חדשה\\core\\ToDo\\obj\\",
+        "outputPath": "Z:\\mora\\זילברברג\\2024-01-23\\OurMiddleware\\core\\TODO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\huser\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -78,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.418\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

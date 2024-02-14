@@ -1,14 +1,10 @@
-namespace ToDo.Controllers;
 using ToDo.Services;
 using ToDo.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
-public class LoginController : ControllerBase
+namespace ToDo.Controllers
 {
-public LoginController(){
-
-}
 
     [ApiController]
     [Route("[controller]")]

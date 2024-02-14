@@ -1,10 +1,8 @@
-namespace ToDo.Controllers;
 using Microsoft.AspNetCore.Mvc;
 using ToDo.Models;
 using ToDo.Interfaces;
-public class tasksController : ControllerBase
+namespace ToDo.Controllers
 {
-public tasksController(){}
     
 
     [ApiController]

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ryfEsR5/K/koVai/cflmMQBmQfK6RlfcZBCoGNmak3Q=",
+  "Hash": "5SewCQ51r/DyxqZ5iVrTwpu0khpy9BW0udDhhIY2z18=",
   "Source": "ToDo",
   "BasePath": "_content/ToDo",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ToDo\\wwwroot",
       "Source": "ToDo",
-      "ContentRoot": "Z:\\B\\בניהו שושנה\\‏‏תיקיה חדשה\\core\\ToDo\\wwwroot\\",
+      "ContentRoot": "Z:\\mora\\זילברברג\\2024-01-23\\OurMiddleware\\core\\TODO\\wwwroot\\",
       "BasePath": "_content/ToDo",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "Z:\\B\\בניהו שושנה\\‏‏תיקיה חדשה\\core\\ToDo\\wwwroot\\css\\site.css",
+      "Identity": "Z:\\mora\\זילברברג\\2024-01-23\\OurMiddleware\\core\\TODO\\wwwroot\\css\\site.css",
       "SourceId": "ToDo",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\B\\בניהו שושנה\\‏‏תיקיה חדשה\\core\\ToDo\\wwwroot\\",
+      "ContentRoot": "Z:\\mora\\זילברברג\\2024-01-23\\OurMiddleware\\core\\TODO\\wwwroot\\",
       "BasePath": "_content/ToDo",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "Z:\\B\\בניהו שושנה\\‏‏תיקיה חדשה\\core\\ToDo\\wwwroot\\data\\Task.json",
+      "Identity": "Z:\\mora\\זילברברג\\2024-01-23\\OurMiddleware\\core\\TODO\\wwwroot\\data\\Task.json",
       "SourceId": "ToDo",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\B\\בניהו שושנה\\‏‏תיקיה חדשה\\core\\ToDo\\wwwroot\\",
+      "ContentRoot": "Z:\\mora\\זילברברג\\2024-01-23\\OurMiddleware\\core\\TODO\\wwwroot\\",
       "BasePath": "_content/ToDo",
       "RelativePath": "data/Task.json",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\data\\Task.json"
     },
     {
-      "Identity": "Z:\\B\\בניהו שושנה\\‏‏תיקיה חדשה\\core\\ToDo\\wwwroot\\data\\Users.json",
+      "Identity": "Z:\\mora\\זילברברג\\2024-01-23\\OurMiddleware\\core\\TODO\\wwwroot\\data\\Users.json",
       "SourceId": "ToDo",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\B\\בניהו שושנה\\‏‏תיקיה חדשה\\core\\ToDo\\wwwroot\\",
+      "ContentRoot": "Z:\\mora\\זילברברג\\2024-01-23\\OurMiddleware\\core\\TODO\\wwwroot\\",
       "BasePath": "_content/ToDo",
       "RelativePath": "data/Users.json",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\data\\Users.json"
     },
     {
-      "Identity": "Z:\\B\\בניהו שושנה\\‏‏תיקיה חדשה\\core\\ToDo\\wwwroot\\index.html",
+      "Identity": "Z:\\mora\\זילברברג\\2024-01-23\\OurMiddleware\\core\\TODO\\wwwroot\\index.html",
       "SourceId": "ToDo",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\B\\בניהו שושנה\\‏‏תיקיה חדשה\\core\\ToDo\\wwwroot\\",
+      "ContentRoot": "Z:\\mora\\זילברברג\\2024-01-23\\OurMiddleware\\core\\TODO\\wwwroot\\",
       "BasePath": "_content/ToDo",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "Z:\\B\\בניהו שושנה\\‏‏תיקיה חדשה\\core\\ToDo\\wwwroot\\js\\site.js",
+      "Identity": "Z:\\mora\\זילברברג\\2024-01-23\\OurMiddleware\\core\\TODO\\wwwroot\\js\\site.js",
       "SourceId": "ToDo",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\B\\בניהו שושנה\\‏‏תיקיה חדשה\\core\\ToDo\\wwwroot\\",
+      "ContentRoot": "Z:\\mora\\זילברברג\\2024-01-23\\OurMiddleware\\core\\TODO\\wwwroot\\",
       "BasePath": "_content/ToDo",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
