@@ -1,0 +1,94 @@
+using ToDo.Interfaces;
+using ToDo.Services;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.OpenApi.Models;
+using ToDo.Middlewares;
+
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+
+builder.Services.AddAuthentication(options =>
+     {
+         options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+     })
+     .AddJwtBearer(cfg =>
+     {
+         cfg.RequireHttpsMetadata = true;
+        //  cfg.TokenValidationParameters = TaskTokenService.GetTokenValidationParameters();
+     });
+//
+builder.Services.AddAuthorization(cfg =>
+            {
+                cfg.AddPolicy("Admin", policy => policy.RequireClaim("type", "Admin"));
+                cfg.AddPolicy("Agent", policy => policy.RequireClaim("type", "User")); 
+            });
+
+builder.Services.AddControllers();
+builder.Services.AddSingleton<ITaskService,TaskService>();
+builder.Services.AddSingleton<IUserService,UserService>();
+builder.Services.AddSwaggerGen(c =>
+   {
+       c.SwaggerDoc("v1", new OpenApiInfo { Title = "njnlklp;", Version = "v1" });
+       //auth3
+       c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+       {
+           In = ParameterLocation.Header,
+           Description = "Please enter JWT with Bearer into field",
+           Name = "Authorization",
+           Type = SecuritySchemeType.ApiKey
+       });
+       //auth4
+       c.AddSecurityRequirement(new OpenApiSecurityRequirement {
+                { new OpenApiSecurityScheme
+                        {
+                         Reference = new OpenApiReference { Type = ReferenceType.SecurityScheme, Id = "Bearer"}
+                        },
+                    new string[] {}
+                }
+       });
+   });
+
+
+
+
+builder.Services.AddControllers();
+
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+var app = builder.Build();
+
+//js
+app.UseDefaultFiles();
+app.UseStaticFiles();
+//js
+
+
+app.UselogMiddleware("file.log");
+
+// Configure the HTTP request pipeline.
+
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
+app.UseHttpsRedirection();
+
+
+app.UseDefaultFiles();
+app.UseStaticFiles();
+
+//auth5
+app.UseAuthentication();
+
+app.UseAuthorization();
+
+app.MapControllers();
+
+
+
+app.Run();
