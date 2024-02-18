@@ -1,4 +1,4 @@
-using ToDo.Interfaces;
+ using ToDo.Interfaces; 
 using ToDo.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.OpenApi.Models;
@@ -6,6 +6,8 @@ using ToDo.Middlewares;
 
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddHttpContextAccessor();
 
 // Add services to the container.
 
@@ -16,21 +18,24 @@ builder.Services.AddAuthentication(options =>
      .AddJwtBearer(cfg =>
      {
          cfg.RequireHttpsMetadata = true;
-        //  cfg.TokenValidationParameters = TaskTokenService.GetTokenValidationParameters();
+         cfg.TokenValidationParameters = TokenService.GetTokenValidationParameters();
      });
 //
+
+
 builder.Services.AddAuthorization(cfg =>
             {
                 cfg.AddPolicy("Admin", policy => policy.RequireClaim("type", "Admin"));
-                cfg.AddPolicy("Agent", policy => policy.RequireClaim("type", "User")); 
+                cfg.AddPolicy("User", policy => policy.RequireClaim("type", "User")); 
             });
 
-builder.Services.AddControllers();
-builder.Services.AddSingleton<ITaskService,TaskService>();
-builder.Services.AddSingleton<IUserService,UserService>();
+            builder.Services.AddControllers();
+
+
+
 builder.Services.AddSwaggerGen(c =>
    {
-       c.SwaggerDoc("v1", new OpenApiInfo { Title = "njnlklp;", Version = "v1" });
+       c.SwaggerDoc("v1", new OpenApiInfo { Title = "ToDo", Version = "v1" });
        //auth3
        c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
        {
@@ -48,10 +53,13 @@ builder.Services.AddSwaggerGen(c =>
                     new string[] {}
                 }
        });
+
+       
    });
 
 
-
+builder.Services.AddSingleton<ITaskService,TaskService>();
+builder.Services.AddSingleton<IUserService,UserService>();
 
 builder.Services.AddControllers();
 

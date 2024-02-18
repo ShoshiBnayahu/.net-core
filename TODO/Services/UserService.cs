@@ -10,7 +10,8 @@ List<User> users;
 private string fileName = "User.json";
 public UserService(IWebHostEnvironment webHost)
        {
-           this.fileName = Path.Combine(webHost.ContentRootPath,"wwwroot", "data", "User.json");
+
+           this.fileName = Path.Combine(webHost.ContentRootPath,"Data", "Users.json");
 
            using (var jsonFile = File.OpenText(fileName))
            {

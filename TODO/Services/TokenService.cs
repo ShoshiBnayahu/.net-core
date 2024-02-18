@@ -8,7 +8,7 @@ using Microsoft.IdentityModel.Tokens;
 
 
 
-    public static class ToDoTokenService
+    public static class TokenService
     {
         private static SymmetricSecurityKey key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("dxcv4567bgvnm#$56678n$&**&*^JJIKlk5678hgb657sdcg67dcgg6d"));
         private static string issuer = "https://ToDo.com";

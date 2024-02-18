@@ -9,7 +9,7 @@ List<task> tasks;
 private string fileName = "Task.json";
 public TaskService(IWebHostEnvironment webHost)
        {
-           this.fileName = Path.Combine(webHost.ContentRootPath,"wwwroot", "data", "Task.json");
+           this.fileName = Path.Combine(webHost.ContentRootPath, "Data", "Task.json");
 
            using (var jsonFile = File.OpenText(fileName))
            {

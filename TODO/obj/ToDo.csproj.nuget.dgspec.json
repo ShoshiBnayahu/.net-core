@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\mora\\זילברברג\\2024-01-23\\OurMiddleware\\core\\TODO\\ToDo.csproj": {}
+    "C:\\Users\\huser\\core\\TODO\\ToDo.csproj": {}
   },
   "projects": {
-    "Z:\\mora\\זילברברג\\2024-01-23\\OurMiddleware\\core\\TODO\\ToDo.csproj": {
+    "C:\\Users\\huser\\core\\TODO\\ToDo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\mora\\זילברברג\\2024-01-23\\OurMiddleware\\core\\TODO\\ToDo.csproj",
+        "projectUniqueName": "C:\\Users\\huser\\core\\TODO\\ToDo.csproj",
         "projectName": "ToDo",
-        "projectPath": "Z:\\mora\\זילברברג\\2024-01-23\\OurMiddleware\\core\\TODO\\ToDo.csproj",
+        "projectPath": "C:\\Users\\huser\\core\\TODO\\ToDo.csproj",
         "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
-        "outputPath": "Z:\\mora\\זילברברג\\2024-01-23\\OurMiddleware\\core\\TODO\\obj\\",
+        "outputPath": "C:\\Users\\huser\\core\\TODO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
