@@ -34,10 +34,18 @@ namespace ToDo.Controllers
 
             }
             else
-                if (getUser.IsAdmin)
-                claims.Add(new Claim("type", "Admin"));
+                if (getUser.IsAdmin){
+                                    claims.Add(new Claim("Id", (getUser.Id).ToString()));
+                                    claims.Add(new Claim("type", "Admin"));
+
+                    
+                }
             else
-                claims.Add(new Claim("type", "User"));
+                {
+                     claims.Add(new Claim("Id", (getUser.Id).ToString()));
+                                    claims.Add(new Claim("type", "User"));
+                }
+
             var token = TokenService.GetToken(claims);
 
             return new OkObjectResult(TokenService.WriteToken(token));

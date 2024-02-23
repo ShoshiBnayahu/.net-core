@@ -26,12 +26,12 @@ public TaskService(IWebHostEnvironment webHost)
            File.WriteAllText(fileName, JsonSerializer.Serialize(tasks));
        }
     
-
+//////////////////////
    public List<task> GetAll() => tasks;
 
    public  task GetById(int id) 
    {
-       return tasks.FirstOrDefault(p => p.Id == id);
+       return tasks.FirstOrDefault(t => t.UserId == id);
    }
 
     public void Add(task task)

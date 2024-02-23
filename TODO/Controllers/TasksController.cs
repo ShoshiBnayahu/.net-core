@@ -1,6 +1,6 @@
 
 using Microsoft.AspNetCore.Mvc;
-// using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using ToDo.Models;
 using ToDo.Interfaces;
 using Microsoft.AspNetCore.Authorization;
@@ -11,30 +11,49 @@ namespace ToDo.Controllers
     public class TasksController : ControllerBase
     {
         readonly ITaskService TaskService;
-        //   private readonly int userId;
+        private readonly int userId;
 
-        public TasksController(ITaskService taskService  /*,IHttpContextAccessor httpContextAccessor*/)
+        public TasksController(ITaskService taskService ,IHttpContextAccessor httpContextAccessor)
         {
             this.TaskService = taskService;
-            // this.userId = int.Parse(httpContextAccessor?.HttpContext?.User.FindFirst("Id")?.Value);
+            this.userId = int.Parse(httpContextAccessor?.HttpContext?.User.FindFirst("Id")?.Value);
         }
 
-        [HttpGet]
-        [Authorize(Policy = "Admin")]
-        public ActionResult<List<task>> GetAll() =>
-                TaskService.GetAll();
+        // [HttpGet]
+        // [Authorize(Policy = "Admin")]
+        // public ActionResult<List<task>> GetAll() =>
+        //         TaskService.GetAll();
 
 
-        //    [HttpGet("{id}")]
-        //    public ActionResult<task> GetById(int id)
-        //    {
-        //        var task = TaskService.GetById(id);
+   
 
-        //        if (task == null)
-        //            return NotFound();
+    [HttpGet("{id}")]
+    [Authorize(Policy = "Admin")]
+    [Authorize(Policy = "User")]
 
-        //        return task;
-        //    }
+    public ActionResult<task> GetById(int ? id=this.userId)
+      {
+                var task = TaskService.GetById(id);
+
+                if (task == null)
+                    return NotFound();
+
+                return task;
+      }
+
+//     [HttpGet]
+// [Route("GetById")]
+//     [Authorize(Policy = "User")]
+//     public ActionResult<task> GetById()
+//       {
+//                 var task = TaskService.GetById(this.userId);
+
+//                 if (task == null)
+//                     return NotFound();
+
+//                 return task;
+//       }
+
 
         //    [HttpPost]
         //    public IActionResult Create(task task)
