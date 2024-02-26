@@ -20,47 +20,44 @@ public TaskService(IWebHostEnvironment webHost)
 });
        }
 }
-
        private void saveToFile()
        {
            File.WriteAllText(fileName, JsonSerializer.Serialize(tasks));
        }
     
-//////////////////////
-   public List<task> GetAll() => tasks;
+   public List<task> GetAll(int userId) => tasks.Where(t=>t.UserId==userId).ToList();
 
-   public  task GetById(int id) 
-   {
-       return tasks.FirstOrDefault(t => t.UserId == id);
-   }
+  
 
-    public void Add(task task)
+   public  task GetById(int id) => tasks.FirstOrDefault(t=>t.Id==id);
+
+
+    public void Add(task task,int userId)
        {
            task.Id = tasks.Count()+1;
+           task.UserId=userId;
            tasks.Add(task);
            saveToFile();
        }
+
+   public void Update(task task)
+       {
+           var index = tasks.FindIndex(p => p.Id == task.Id);
+           if (index == -1)
+               return;
+           tasks[index] = task;
+           saveToFile();
+       }
+
 
        public void Delete(int id)
        {
            var task = GetById(id);
            if (task is null)
                return;
-
            tasks.Remove(task);
            saveToFile();
        }
 
-       public void Update(task task)
-       {
-           var index = tasks.FindIndex(p => p.Id == task.Id);
-           if (index == -1)
-               return;
-
-           tasks[index] = task;
-           saveToFile();
-       }
-
-       public int Count => tasks.Count();
    }
 

@@ -37,6 +37,7 @@ namespace ToDo.Controllers
                 if (getUser.IsAdmin){
                                     claims.Add(new Claim("Id", (getUser.Id).ToString()));
                                     claims.Add(new Claim("type", "Admin"));
+                                    claims.Add(new Claim("type", "User"));
 
                     
                 }
