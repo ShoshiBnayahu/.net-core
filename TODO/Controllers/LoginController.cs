@@ -21,7 +21,6 @@ namespace ToDo.Controllers
         }
 
         [HttpPost]
-        [Route("[action]")]
         public ActionResult<String> Login([FromBody] User User)
         {
 

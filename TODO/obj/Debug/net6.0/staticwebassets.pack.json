@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\USER\\core\\TODO\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\USER\\core\\TODO\\wwwroot\\html\\index.html",
+      "PackagePath": "staticwebassets\\html\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\USER\\core\\TODO\\wwwroot\\html\\login.html",
+      "PackagePath": "staticwebassets\\html\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\USER\\core\\TODO\\wwwroot\\html\\tasks.html",
+      "PackagePath": "staticwebassets\\html\\tasks.html"
+    },
+    {
+      "Id": "C:\\Users\\USER\\core\\TODO\\wwwroot\\html\\users.html",
+      "PackagePath": "staticwebassets\\html\\users.html"
+    },
+    {
+      "Id": "C:\\Users\\USER\\core\\TODO\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\USER\\core\\TODO\\wwwroot\\js\\login.js",
+      "PackagePath": "staticwebassets\\js\\login.js"
+    },
+    {
+      "Id": "C:\\Users\\USER\\core\\TODO\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\USER\\core\\TODO\\wwwroot\\js\\tasks.js",
+      "PackagePath": "staticwebassets\\js\\tasks.js"
+    },
+    {
+      "Id": "C:\\Users\\USER\\core\\TODO\\wwwroot\\js\\users.js",
+      "PackagePath": "staticwebassets\\js\\users.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ToDo.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ToDo.props",
+      "PackagePath": "build\\ToDo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ToDo.props",
+      "PackagePath": "buildMultiTargeting\\ToDo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ToDo.props",
+      "PackagePath": "buildTransitive\\ToDo.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

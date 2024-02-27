@@ -8,12 +8,12 @@ namespace ToDo.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class TasksController : ControllerBase
+    public class ToDoController : ControllerBase
     {
         readonly ITaskService TaskService;
         private readonly int userId;
 
-        public TasksController(ITaskService taskService ,IHttpContextAccessor httpContextAccessor)
+        public ToDoController(ITaskService taskService ,IHttpContextAccessor httpContextAccessor)
         {
             this.TaskService = taskService;
             this.userId = int.Parse(httpContextAccessor?.HttpContext?.User.FindFirst("Id")?.Value);
