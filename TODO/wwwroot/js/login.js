@@ -30,7 +30,7 @@ function login() {
             console.log(result);
             //     sessionStorage.setItem("name", name);
             //     sessionStorage.setItem("password", password);
-            sessionStorage.setItem("token", result)
+            localStorage.setItem("token", result)
             location.href = "./html/tasks.html";
         }
         )

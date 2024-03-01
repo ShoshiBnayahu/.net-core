@@ -1,15 +1,14 @@
 const uri = '/ToDo';
 let tasks = [];
-const token = sessionStorage.getItem("token");
-console.log(token);
-
+const token = localStorage.getItem("token");
+const Auth ="Bearer " + JSON.parse(token);
 function getItems() {
     fetch(uri,
         {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': "Bearer " + token,
+                'Authorization': Auth,
 
             }
         })
@@ -17,6 +16,70 @@ function getItems() {
         .then(data => _displayItems(data))
         .catch(error => console.error('Unable to get items.', error));
 }
+
+ function addItem() {
+     const addNameTextbox = document.getElementById('add-name');
+     const item = {
+         isDone: false,
+         Name: addNameTextbox.value.trim()
+     };
+         fetch(uri, {
+            method: 'POST',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json',
+                'Authorization': Auth,
+
+            },
+            body: JSON.stringify(item)
+        })
+        .then(response => response.json())
+        .then(() => {
+            getItems();
+            addNameTextbox.value = '';
+        })
+        .catch(error => console.error('Unable to add item.', error));
+}
+
+ function displayEditForm(id) {
+     const item = tasks.find(item => item.id === id);
+
+     document.getElementById('edit-name').value = item.name;
+    document.getElementById('edit-id').value = item.id;
+    document.getElementById('edit-isDone').checked = item.isDone;
+    document.getElementById('editForm').style.display = 'block';
+}
+
+ function updateItem() {
+     const itemId = document.getElementById('edit-id').value;
+     const item = {
+        id: parseInt(itemId, 10),
+        isDone: document.getElementById('edit-isDone').checked,
+        name: document.getElementById('edit-name').value.trim()
+     };
+
+     fetch(`${uri}/${itemId}`, {
+             method: 'PUT',
+             headers: {
+                'Accept': 'application/json',
+                 'Content-Type': 'application/json',
+                 'Authorization': Auth,
+
+           },
+            body: JSON.stringify(item)
+         })
+         .then(() => getItems())
+        .catch(error => console.error('Unable to update item.', error));
+
+    closeInput();
+
+    return false;
+}
+
+function closeInput() {
+    document.getElementById('editForm').style.display = 'none';
+}
+
 
 function _displayCount(itemCount) {
     const name = (itemCount === 1) ? 'task' : 'task kinds';

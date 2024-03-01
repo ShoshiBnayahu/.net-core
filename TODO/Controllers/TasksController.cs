@@ -32,22 +32,22 @@ namespace ToDo.Controllers
 
             [HttpPost]
             [Authorize(Policy = "User")]
-  public IActionResult Create(task task)
+        public IActionResult Create(task task)
            {
                 TaskService.Add(task,this.userId);
                return CreatedAtAction(nameof(Create), new { id = task.Id }, task);
 
            }
 
-           [HttpPut("{id}")]
-           [Authorize(Policy = "User")]
+          [HttpPut("{id}")]
+          [Authorize(Policy = "User")]
            public IActionResult Update(int id, task task)
            {
                if (id != task.Id)
                    return BadRequest();
                var existingTask = TaskService.GetById(id);
                if (existingTask is null)
-                   return NotFound();
+                   return NotFound();  
                TaskService.Update(task);
                return NoContent();
            }

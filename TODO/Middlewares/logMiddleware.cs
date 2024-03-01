@@ -23,7 +23,7 @@ public class logMiddleware
         await next(c);
         
         WriteLogToFile($"{c.Request.Path}.{c.Request.Method} took {sw.ElapsedMilliseconds}ms."
-            + $" User: {c.User?.FindFirst("userId")?.Value ?? "unknown"}");     
+            + $" User: {c.User?.FindFirst("Id")?.Value ?? "unknown"}");     
     }    
 
 
