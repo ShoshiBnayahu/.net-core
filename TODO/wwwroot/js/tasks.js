@@ -62,8 +62,8 @@ function getItems() {
              method: 'PUT',
              headers: {
                 'Accept': 'application/json',
-                 'Content-Type': 'application/json',
-                 'Authorization': Auth,
+                'Content-Type': 'application/json',
+                'Authorization': Auth,
 
            },
             body: JSON.stringify(item)
@@ -80,6 +80,18 @@ function closeInput() {
     document.getElementById('editForm').style.display = 'none';
 }
 
+function deleteItem(id) {
+    fetch(`${uri}/${id}`, {
+            method: 'DELETE',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json',
+                'Authorization': Auth,
+           }
+        })
+        .then(() => getItems())
+        .catch(error => console.error('Unable to delete item.', error));
+}
 
 function _displayCount(itemCount) {
     const name = (itemCount === 1) ? 'task' : 'task kinds';

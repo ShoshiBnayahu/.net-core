@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BqitAc4zWTD/L+xpx7NWXn65rMPnRALX+gQwzSSDFpFKfSo2Cp9ABXR0VCreyIEFNPKfJcJDbu3Aehv5xiWHtA==",
+  "dgSpecHash": "ZdDW07jJxa2s6cZLzCq11Onzo4j0j2TuT5xzPAsq+i82uX6/xfYanjBH1WLI1BvLJ5RLPNK3Bf6wtOZ2BUgzig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\huser\\core\\todo\\ToDo.csproj",
+  "projectFilePath": "C:\\Users\\huser\\core\\TODO\\ToDo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\huser\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.4\\microsoft.aspnetcore.authentication.jwtbearer.5.0.4.nupkg.sha512",
     "C:\\Users\\huser\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
@@ -25,7 +25,22 @@
     "C:\\Users\\huser\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.7.1\\system.identitymodel.tokens.jwt.6.7.1.nupkg.sha512",
     "C:\\Users\\huser\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
     "C:\\Users\\huser\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
-    "C:\\Users\\huser\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
+    "C:\\Users\\huser\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
+    "C:\\Users\\huser\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\huser\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\huser\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\huser\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNetCore.Authentication.JwtBearer' 5.0.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-q7cg-43mg-qp69",
+      "libraryId": "Microsoft.AspNetCore.Authentication.JwtBearer",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

@@ -34,7 +34,7 @@ public TaskService(IWebHostEnvironment webHost)
 
     public void Add(task task,int userId)
        {
-           task.Id = tasks.Count()+1;
+           task.Id = tasks.Max(t=>t.Id)+1;
            task.UserId=userId;
            tasks.Add(task);
            saveToFile();
@@ -46,7 +46,7 @@ public TaskService(IWebHostEnvironment webHost)
            if (index == -1)
                return;
            tasks[index].Name = task.Name;
-        tasks[index].IsDone = task.IsDone;
+           tasks[index].IsDone = task.IsDone;
 
            saveToFile();
        }

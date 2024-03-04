@@ -8,6 +8,8 @@ namespace ToDo.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [Authorize(Policy = "User")]
+
     public class ToDoController : ControllerBase
     {
         readonly ITaskService TaskService;
@@ -20,18 +22,15 @@ namespace ToDo.Controllers
         }
 
         [HttpGet]
-        [Authorize(Policy = "User")]
         public ActionResult<List<task>> GetAll() =>
                       TaskService.GetAll(this.userId);
 
         [HttpGet("{id}")]
-        [Authorize(Policy = "User")]
 
        public ActionResult<task> GetById(int id)=>TaskService.GetById(id);
 
 
             [HttpPost]
-            [Authorize(Policy = "User")]
         public IActionResult Create(task task)
            {
                 TaskService.Add(task,this.userId);
@@ -40,7 +39,6 @@ namespace ToDo.Controllers
            }
 
           [HttpPut("{id}")]
-          [Authorize(Policy = "User")]
            public IActionResult Update(int id, task task)
            {
                if (id != task.Id)
@@ -53,7 +51,6 @@ namespace ToDo.Controllers
            }
 
            [HttpDelete("{id}")]
-           [Authorize(Policy = "User")]
            public IActionResult Delete(int id)
            {
               var existingTask = TaskService.GetById(id);
