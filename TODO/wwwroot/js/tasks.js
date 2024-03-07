@@ -17,6 +17,32 @@ function getItems() {
         .catch(error => console.error('Unable to get items.', error));
 }
 
+function showUsersLink() {
+    // fetch("/users",
+    //     {
+    //         method: 'GET',
+    //         headers: {
+    //             'Content-Type': 'application/json',
+    //             'Authorization': Auth,
+
+    //         }
+    //     })
+    //     .then(response => {
+    //         if (response.status === 200) {
+    //             console.log("hhhhhhhhhhhhhhh");
+    //             let usersLink = document.createElement('a');
+    //            usersLink.href="../html/users.html";
+    //            usersLink.innerHTML="users";
+    //         }
+    //     })
+    //     .catch(err=>console.log(err))
+
+    
+    document.getElementById('usersLink').href="../html/users.html";
+                
+       
+}
+
  function addItem() {
      const addNameTextbox = document.getElementById('add-name');
      const item = {

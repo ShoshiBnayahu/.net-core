@@ -5,10 +5,6 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\huser\\core\\TODO\\wwwroot\\html\\login.html",
-      "PackagePath": "staticwebassets\\html\\login.html"
-    },
-    {
       "Id": "C:\\Users\\huser\\core\\TODO\\wwwroot\\html\\tasks.html",
       "PackagePath": "staticwebassets\\html\\tasks.html"
     },
