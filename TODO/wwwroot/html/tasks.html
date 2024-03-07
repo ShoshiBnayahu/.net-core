@@ -23,7 +23,7 @@
             <input type="checkbox" id="edit-isDone">
             <input type="text" id="edit-name"> 
             <button type="submit"   >save</button>
-            <a onclick="closeInput()" aria-label="Close">&#10006;</a>
+            <a onclick="closeEditInput()" aria-label="Close">&#10006;</a>
         </form>
     </div>
 
@@ -39,7 +39,22 @@
         <tbody id="tasks"></tbody>
     </table> 
     
-    <a id="usersLink" href="">link to users</a>
+
+    <button onclick="">Update your detail</button>
+
+    <div id="upadateForm" >
+        <h3>Update your detail:</h3>
+        <form action="javascript:void(0);" onsubmit="updateItem()">
+            <input type="hidden" id="edit-id">
+            <input type="checkbox" id="edit-isDone">
+            <input type="text" id="edit-name"> 
+            <button type="submit"   >save</button>
+            <a onclick="displayUpdateForm()" aria-label="Close">&#10006;</a>
+        </form>
+    </div>
+
+
+    <a id="usersLink" href="../html/users.html"></a>
 
 
   

@@ -147,3 +147,9 @@ C:\Users\USER\core\TODO\obj\Debug\net6.0\refint\ToDo.dll
 C:\Users\USER\core\TODO\obj\Debug\net6.0\ToDo.pdb
 C:\Users\USER\core\TODO\obj\Debug\net6.0\ToDo.genruntimeconfig.cache
 C:\Users\USER\core\TODO\obj\Debug\net6.0\ref\ToDo.dll
+C:\Users\huser\core\todo\obj\Debug\net6.0\ToDo.sourcelink.json
+C:\Users\huser\core\todo\obj\Debug\net6.0\staticwebassets\msbuild.ToDo.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\huser\core\todo\obj\Debug\net6.0\staticwebassets\msbuild.build.ToDo.props
+C:\Users\huser\core\todo\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ToDo.props
+C:\Users\huser\core\todo\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ToDo.props
+C:\Users\huser\core\todo\obj\Debug\net6.0\staticwebassets.pack.json

@@ -7,6 +7,9 @@ button,
 #editForm {
     display: none;
 }
+#upadateForm{
+    display: none;
+}
 
 table {
     font-family: Arial, sans-serif;

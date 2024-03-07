@@ -18,29 +18,23 @@ function getItems() {
 }
 
 function showUsersLink() {
-    // fetch("/users",
-    //     {
-    //         method: 'GET',
-    //         headers: {
-    //             'Content-Type': 'application/json',
-    //             'Authorization': Auth,
 
-    //         }
-    //     })
-    //     .then(response => {
-    //         if (response.status === 200) {
-    //             console.log("hhhhhhhhhhhhhhh");
-    //             let usersLink = document.createElement('a');
-    //            usersLink.href="../html/users.html";
-    //            usersLink.innerHTML="users";
-    //         }
-    //     })
-    //     .catch(err=>console.log(err))
+    fetch('/users',
+        {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': Auth,
 
-    
-    document.getElementById('usersLink').href="../html/users.html";
-                
-       
+            }
+        })
+        .then(response => {
+            console.log(response.status);
+                if (response.status=== 200) 
+                    document.getElementById('usersLink').innerHTML="link to users";
+        })
+     
+  
 }
 
  function addItem() {
@@ -76,6 +70,15 @@ function showUsersLink() {
     document.getElementById('editForm').style.display = 'block';
 }
 
+function displayUpdateForm() {
+    // const item = tasks.find(item => item.id === id);
+
+//     document.getElementById('edit-name').value = item.name;
+//    document.getElementById('edit-id').value = item.id;
+//    document.getElementById('edit-isDone').checked = item.isDone;
+   document.getElementById('upadateForm').style.display = 'block';
+}
+
  function updateItem() {
      const itemId = document.getElementById('edit-id').value;
      const item = {
@@ -102,8 +105,12 @@ function showUsersLink() {
     return false;
 }
 
-function closeInput() {
+function closeEditInput() {
     document.getElementById('editForm').style.display = 'none';
+}
+
+function closeUpdateInput() {
+    document.getElementById('upadateForm').style.display = 'none';
 }
 
 function deleteItem(id) {
