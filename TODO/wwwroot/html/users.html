@@ -4,31 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>users
-
-    </title>
+    <link rel="stylesheet" href="../css/site.css">
+    <title>users</title>
 </head>
 
 <body>
     <h1>users CRUD</h1>
     <h3>Add</h3>
     <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
-        <input type="text" id="add-name" placeholder="New user">
-        <input type="password" id="add-password" placeholder="password">
-        
+        <input type="text" id="add-name" placeholder="New user" required>
+        <input type="password" id="add-password" placeholder="password" required>
+        <label >is admin?</label>
+         <input type="checkbox" id="add-isAdmin"  >  
         <button type="submit" >add</button>
     </form>
 
-    <!-- <div id="editForm">
-        <h3>Edit</h3>
-        <form action="javascript:void(0);" onsubmit="updateItem()">
-            <input type="hidden" id="edit-id">
-            <input type="checkbox" id="edit-isDone">
-            <input type="text" id="edit-name"> 
-            <button type="submit"   >save</button>
-            <a onclick="closeInput()" aria-label="Close">&#10006;</a>
-        </form>
-    </div> -->
 
     <p id="counter"></p>
 
@@ -38,15 +28,14 @@
             <th>Name</th>
             <th>Password</th>
         </tr>
-        <tbody id="tasks"></tbody>
+        <tbody id="users"></tbody>
     </table> 
     
 </body>
 
-<script src="./js/users.js"></script>
+<script src="../js/users.js"></script>
 <script type="text/javascript">
     getItems();
-    // showUsersLink();
 </script>
 
 </html>

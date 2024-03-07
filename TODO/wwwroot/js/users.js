@@ -20,9 +20,12 @@ function getItems() {
 
 function addItem() {
      const addNameTextbox = document.getElementById('add-name');
+     const addPasswordTextbox=document.getElementById('add-password');
+     const addIsAdminCheckbox=document.getElementById('add-isAdmin');
      const item = {
-         isDone: false,
-         Name: addNameTextbox.value.trim()
+         isAdmin: addIsAdminCheckbox.checked,
+         name: addNameTextbox.value.trim(),
+         password: addPasswordTextbox.value.trim()
      };
          fetch(uri, {
             method: 'POST',
@@ -38,18 +41,13 @@ function addItem() {
         .then(() => {
             getItems();
             addNameTextbox.value = '';
+            addPasswordTextbox.value='';
+            addIsAdminCheckbox.checked=false;
+
         })
         .catch(error => console.error('Unable to add item.', error));
 }
 
-//  function displayEditForm(id) {
-//      const item = tasks.find(item => item.id === id);
-
-//      document.getElementById('edit-name').value = item.name;
-//     document.getElementById('edit-id').value = item.id;
-//     document.getElementById('edit-isDone').checked = item.isDone;
-//     document.getElementById('editForm').style.display = 'block';
-// }
 
 
 function deleteItem(id) {
