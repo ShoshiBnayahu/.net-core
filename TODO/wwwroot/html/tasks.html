@@ -40,16 +40,16 @@
     </table> 
     
 
-    <button onclick="">Update your detail</button>
+    <button onclick="getUserId()">Update your detail</button>
 
     <div id="upadateForm" >
         <h3>Update your detail:</h3>
-        <form action="javascript:void(0);" onsubmit="updateItem()">
-            <input type="hidden" id="edit-id">
-            <input type="checkbox" id="edit-isDone">
-            <input type="text" id="edit-name"> 
-            <button type="submit"   >save</button>
-            <a onclick="displayUpdateForm()" aria-label="Close">&#10006;</a>
+        <form action="javascript:void(0);" onsubmit="updateUserDetail()">
+            <input type="hidden" id="update-id">
+            <input type="text" id="update-name" > 
+            <input type="password" id="update-password"> 
+            <button type="submit" >save</button>
+            <a onclick="closeUpdateInput()" aria-label="Close">&#10006;</a>
         </form>
     </div>
 

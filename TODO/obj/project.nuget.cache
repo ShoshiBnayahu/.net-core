@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5YAItWUR0qdGQ8NpFpZ3SpOA4OHnbeOLZN0mkltgaquYEY0wJ6osHtZOyaolKMi82MgbFQeAWH0rM5sj6/3TsQ==",
+  "dgSpecHash": "ZdDW07jJxa2s6cZLzCq11Onzo4j0j2TuT5xzPAsq+i82uX6/xfYanjBH1WLI1BvLJ5RLPNK3Bf6wtOZ2BUgzig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\huser\\core\\todo\\ToDo.csproj",
+  "projectFilePath": "C:\\Users\\huser\\core\\TODO\\ToDo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\huser\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.4\\microsoft.aspnetcore.authentication.jwtbearer.5.0.4.nupkg.sha512",
     "C:\\Users\\huser\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

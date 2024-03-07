@@ -1,7 +1,7 @@
 const uri = '/users';
 let users = [];
 const token = localStorage.getItem("token");
-const Auth ="Bearer " + JSON.parse(token);
+const Auth = "Bearer " + JSON.parse(token);
 function getItems() {
     fetch(uri,
         {
@@ -19,30 +19,30 @@ function getItems() {
 
 
 function addItem() {
-     const addNameTextbox = document.getElementById('add-name');
-     const addPasswordTextbox=document.getElementById('add-password');
-     const addIsAdminCheckbox=document.getElementById('add-isAdmin');
-     const item = {
-         isAdmin: addIsAdminCheckbox.checked,
-         name: addNameTextbox.value.trim(),
-         password: addPasswordTextbox.value.trim()
-     };
-         fetch(uri, {
-            method: 'POST',
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json',
-                'Authorization': Auth,
+    const addNameTextbox = document.getElementById('add-name');
+    const addPasswordTextbox = document.getElementById('add-password');
+    const addIsAdminCheckbox = document.getElementById('add-isAdmin');
+    const item = {
+        isAdmin: addIsAdminCheckbox.checked,
+        name: addNameTextbox.value.trim(),
+        password: addPasswordTextbox.value.trim()
+    };
+    fetch(uri, {
+        method: 'POST',
+        headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json',
+            'Authorization': Auth,
 
-            },
-            body: JSON.stringify(item)
-        })
+        },
+        body: JSON.stringify(item)
+    })
         .then(response => response.json())
         .then(() => {
             getItems();
             addNameTextbox.value = '';
-            addPasswordTextbox.value='';
-            addIsAdminCheckbox.checked=false;
+            addPasswordTextbox.value = '';
+            addIsAdminCheckbox.checked = false;
 
         })
         .catch(error => console.error('Unable to add item.', error));
@@ -52,13 +52,13 @@ function addItem() {
 
 function deleteItem(id) {
     fetch(`${uri}/${id}`, {
-            method: 'DELETE',
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json',
-                'Authorization': Auth,
-           }
-        })
+        method: 'DELETE',
+        headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json',
+            'Authorization': Auth,
+        }
+    })
         .then(() => getItems())
         .catch(error => console.error('Unable to delete item.', error));
 }
