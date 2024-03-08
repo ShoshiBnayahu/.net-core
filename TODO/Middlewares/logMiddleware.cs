@@ -19,11 +19,12 @@ public class logMiddleware
     public async Task Invoke(HttpContext c)
     {
         var sw = new Stopwatch();
+        var dt= DateTime.Now;
         sw.Start();
         await next(c);
         
-        WriteLogToFile($"{c.Request.Path}.{c.Request.Method} took {sw.ElapsedMilliseconds}ms."
-            + $" User: {c.User?.FindFirst("Id")?.Value ?? "unknown"}");     
+        WriteLogToFile($"{dt} {c.Request.Path}.{c.Request.Method} took {sw.ElapsedMilliseconds}ms."
+            + $" UserId: {c.User?.FindFirst("Id")?.Value ?? "unknown"}");     
     }    
 
 
