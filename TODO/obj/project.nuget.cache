@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b1L6ANLd8vrweZ+UHvxqB3tJcPN83T/dtaYsD6U9r6c2bNa4VJvN2tZ2LzJC5niCeVm4TtHz1LfrYQB0Zu4XNA==",
+  "dgSpecHash": "BqitAc4zWTD/L+xpx7NWXn65rMPnRALX+gQwzSSDFpFKfSo2Cp9ABXR0VCreyIEFNPKfJcJDbu3Aehv5xiWHtA==",
   "success": true,
-  "projectFilePath": "Z:\\B\\בניהו שושנה\\נסיון מונגו\\core\\todo\\ToDo.csproj",
+  "projectFilePath": "C:\\Users\\huser\\core\\todo\\ToDo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\huser\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.4\\microsoft.aspnetcore.authentication.jwtbearer.5.0.4.nupkg.sha512",
     "C:\\Users\\huser\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

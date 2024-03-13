@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3KMwdg7zo9AEArl5gW7HpwTrC+XdoXTtszjBNCIPhAw=",
+  "Hash": "o/EYWaATppOEIXaZesamFFuQkku16va141IsjHPSiHg=",
   "Source": "ToDo",
   "BasePath": "_content/ToDo",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ToDo\\wwwroot",
       "Source": "ToDo",
-      "ContentRoot": "Z:\\B\\בניהו שושנה\\נסיון מונגו\\core\\todo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\huser\\core\\todo\\wwwroot\\",
       "BasePath": "_content/ToDo",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "Z:\\B\\בניהו שושנה\\נסיון מונגו\\core\\todo\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\huser\\core\\todo\\wwwroot\\css\\site.css",
       "SourceId": "ToDo",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\B\\בניהו שושנה\\נסיון מונגו\\core\\todo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\huser\\core\\todo\\wwwroot\\",
       "BasePath": "_content/ToDo",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "Z:\\B\\בניהו שושנה\\נסיון מונגו\\core\\todo\\wwwroot\\html\\tasks.html",
+      "Identity": "C:\\Users\\huser\\core\\todo\\wwwroot\\html\\tasks.html",
       "SourceId": "ToDo",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\B\\בניהו שושנה\\נסיון מונגו\\core\\todo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\huser\\core\\todo\\wwwroot\\",
       "BasePath": "_content/ToDo",
       "RelativePath": "html/tasks.html",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\html\\tasks.html"
     },
     {
-      "Identity": "Z:\\B\\בניהו שושנה\\נסיון מונגו\\core\\todo\\wwwroot\\html\\users.html",
+      "Identity": "C:\\Users\\huser\\core\\todo\\wwwroot\\html\\users.html",
       "SourceId": "ToDo",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\B\\בניהו שושנה\\נסיון מונגו\\core\\todo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\huser\\core\\todo\\wwwroot\\",
       "BasePath": "_content/ToDo",
       "RelativePath": "html/users.html",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\html\\users.html"
     },
     {
-      "Identity": "Z:\\B\\בניהו שושנה\\נסיון מונגו\\core\\todo\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\huser\\core\\todo\\wwwroot\\index.html",
       "SourceId": "ToDo",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\B\\בניהו שושנה\\נסיון מונגו\\core\\todo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\huser\\core\\todo\\wwwroot\\",
       "BasePath": "_content/ToDo",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "Z:\\B\\בניהו שושנה\\נסיון מונגו\\core\\todo\\wwwroot\\js\\login.js",
+      "Identity": "C:\\Users\\huser\\core\\todo\\wwwroot\\js\\login.js",
       "SourceId": "ToDo",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\B\\בניהו שושנה\\נסיון מונגו\\core\\todo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\huser\\core\\todo\\wwwroot\\",
       "BasePath": "_content/ToDo",
       "RelativePath": "js/login.js",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\js\\login.js"
     },
     {
-      "Identity": "Z:\\B\\בניהו שושנה\\נסיון מונגו\\core\\todo\\wwwroot\\js\\tasks.js",
+      "Identity": "C:\\Users\\huser\\core\\todo\\wwwroot\\js\\tasks.js",
       "SourceId": "ToDo",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\B\\בניהו שושנה\\נסיון מונגו\\core\\todo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\huser\\core\\todo\\wwwroot\\",
       "BasePath": "_content/ToDo",
       "RelativePath": "js/tasks.js",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\js\\tasks.js"
     },
     {
-      "Identity": "Z:\\B\\בניהו שושנה\\נסיון מונגו\\core\\todo\\wwwroot\\js\\users.js",
+      "Identity": "C:\\Users\\huser\\core\\todo\\wwwroot\\js\\users.js",
       "SourceId": "ToDo",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\B\\בניהו שושנה\\נסיון מונגו\\core\\todo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\huser\\core\\todo\\wwwroot\\",
       "BasePath": "_content/ToDo",
       "RelativePath": "js/users.js",
       "AssetKind": "All",

@@ -1,1 +1,16 @@
-
+13/03/2024 15:29:50 /ToDo.GET took 171ms. UserId: 0
+13/03/2024 15:31:27 /ToDo.GET took 180ms. UserId: 0
+13/03/2024 15:32:12 /favicon.ico.GET took 41ms. UserId: unknown
+13/03/2024 15:32:12 /users.GET took 168ms. UserId: 0
+13/03/2024 15:32:20 /users.GET took 2ms. UserId: 0
+13/03/2024 15:33:33 /ToDo.GET took 167ms. UserId: 0
+13/03/2024 15:33:35 /users.GET took 3ms. UserId: 0
+13/03/2024 15:33:39 /users.GET took 0ms. UserId: 0
+13/03/2024 15:33:39 /ToDo.GET took 0ms. UserId: 0
+13/03/2024 15:33:41 /ToDo.GET took 0ms. UserId: 0
+13/03/2024 15:35:59 /ToDo.GET took 172ms. UserId: 0
+13/03/2024 15:36:23 /ToDo.GET took 172ms. UserId: 0
+13/03/2024 15:36:24 /users.GET took 3ms. UserId: 0
+13/03/2024 15:36:29 /ToDo.GET took 0ms. UserId: 0
+13/03/2024 15:36:31 /ToDo.GET took 0ms. UserId: 0
+13/03/2024 15:37:54 /users.GET took 164ms. UserId: 0

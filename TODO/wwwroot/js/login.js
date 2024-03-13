@@ -1,6 +1,9 @@
 
 const uri = '/login';
-
+function withoutLogin(){
+    if(localStorage.getItem("token")!=undefined)
+    location.href = "./html/tasks.html";
+}
 
 function login() {
     const user = {
