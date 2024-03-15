@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\huser\\.net-core\\todo\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\huser\\.net-core\\todo\\wwwroot\\html\\tasks.html",
+      "PackagePath": "staticwebassets\\html\\tasks.html"
+    },
+    {
+      "Id": "C:\\Users\\huser\\.net-core\\todo\\wwwroot\\html\\users.html",
+      "PackagePath": "staticwebassets\\html\\users.html"
+    },
+    {
+      "Id": "C:\\Users\\huser\\.net-core\\todo\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\huser\\.net-core\\todo\\wwwroot\\js\\login.js",
+      "PackagePath": "staticwebassets\\js\\login.js"
+    },
+    {
+      "Id": "C:\\Users\\huser\\.net-core\\todo\\wwwroot\\js\\tasks.js",
+      "PackagePath": "staticwebassets\\js\\tasks.js"
+    },
+    {
+      "Id": "C:\\Users\\huser\\.net-core\\todo\\wwwroot\\js\\users.js",
+      "PackagePath": "staticwebassets\\js\\users.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ToDo.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ToDo.props",
+      "PackagePath": "build\\ToDo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ToDo.props",
+      "PackagePath": "buildMultiTargeting\\ToDo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ToDo.props",
+      "PackagePath": "buildTransitive\\ToDo.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

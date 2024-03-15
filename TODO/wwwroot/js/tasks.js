@@ -222,3 +222,7 @@ function closeUpdateInput() {
     document.getElementById('upadateForm').style.display = 'none';
 }
 
+function changeUser(){
+    sessionStorage.setItem("changeUser",true);
+    location.href = "../index.html";
+}

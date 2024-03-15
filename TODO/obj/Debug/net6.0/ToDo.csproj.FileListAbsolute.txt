@@ -184,3 +184,46 @@ Z:\B\בניהו שושנה\נסיון מונגו\core\todo\obj\Debug\net6.0\refi
 Z:\B\בניהו שושנה\נסיון מונגו\core\todo\obj\Debug\net6.0\ToDo.pdb
 Z:\B\בניהו שושנה\נסיון מונגו\core\todo\obj\Debug\net6.0\ToDo.genruntimeconfig.cache
 Z:\B\בניהו שושנה\נסיון מונגו\core\todo\obj\Debug\net6.0\ref\ToDo.dll
+C:\Users\huser\.net-core\todo\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\huser\.net-core\todo\bin\Debug\net6.0\appsettings.json
+C:\Users\huser\.net-core\todo\bin\Debug\net6.0\Data\Task.json
+C:\Users\huser\.net-core\todo\bin\Debug\net6.0\Data\Users.json
+C:\Users\huser\.net-core\todo\bin\Debug\net6.0\ToDo.staticwebassets.runtime.json
+C:\Users\huser\.net-core\todo\bin\Debug\net6.0\ToDo.exe
+C:\Users\huser\.net-core\todo\bin\Debug\net6.0\ToDo.deps.json
+C:\Users\huser\.net-core\todo\bin\Debug\net6.0\ToDo.runtimeconfig.json
+C:\Users\huser\.net-core\todo\bin\Debug\net6.0\ToDo.dll
+C:\Users\huser\.net-core\todo\bin\Debug\net6.0\ToDo.pdb
+C:\Users\huser\.net-core\todo\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\huser\.net-core\todo\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\huser\.net-core\todo\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\huser\.net-core\todo\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\huser\.net-core\todo\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\huser\.net-core\todo\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\huser\.net-core\todo\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\huser\.net-core\todo\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\huser\.net-core\todo\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\huser\.net-core\todo\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\huser\.net-core\todo\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\huser\.net-core\todo\obj\Debug\net6.0\ToDo.csproj.AssemblyReference.cache
+C:\Users\huser\.net-core\todo\obj\Debug\net6.0\ToDo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huser\.net-core\todo\obj\Debug\net6.0\ToDo.AssemblyInfoInputs.cache
+C:\Users\huser\.net-core\todo\obj\Debug\net6.0\ToDo.AssemblyInfo.cs
+C:\Users\huser\.net-core\todo\obj\Debug\net6.0\ToDo.csproj.CoreCompileInputs.cache
+C:\Users\huser\.net-core\todo\obj\Debug\net6.0\ToDo.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\huser\.net-core\todo\obj\Debug\net6.0\ToDo.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\huser\.net-core\todo\obj\Debug\net6.0\ToDo.sourcelink.json
+C:\Users\huser\.net-core\todo\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\huser\.net-core\todo\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\huser\.net-core\todo\obj\Debug\net6.0\staticwebassets\msbuild.ToDo.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\huser\.net-core\todo\obj\Debug\net6.0\staticwebassets\msbuild.build.ToDo.props
+C:\Users\huser\.net-core\todo\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ToDo.props
+C:\Users\huser\.net-core\todo\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ToDo.props
+C:\Users\huser\.net-core\todo\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\huser\.net-core\todo\obj\Debug\net6.0\scopedcss\bundle\ToDo.styles.css
+C:\Users\huser\.net-core\todo\obj\Debug\net6.0\ToDo.csproj.CopyComplete
+C:\Users\huser\.net-core\todo\obj\Debug\net6.0\ToDo.dll
+C:\Users\huser\.net-core\todo\obj\Debug\net6.0\refint\ToDo.dll
+C:\Users\huser\.net-core\todo\obj\Debug\net6.0\ToDo.pdb
+C:\Users\huser\.net-core\todo\obj\Debug\net6.0\ToDo.genruntimeconfig.cache
+C:\Users\huser\.net-core\todo\obj\Debug\net6.0\ref\ToDo.dll
