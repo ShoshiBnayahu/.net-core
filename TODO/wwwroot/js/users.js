@@ -2,9 +2,9 @@ const uri = '/users';
 let users = [];
 const token = localStorage.getItem("token");
 const Auth = "Bearer " + JSON.parse(token);
+
 function getItems() {
-    fetch(uri,
-        {
+    fetch(uri, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
@@ -28,16 +28,19 @@ function addItem() {
         password: addPasswordTextbox.value.trim()
     };
     fetch(uri, {
-        method: 'POST',
-        headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json',
-            'Authorization': Auth,
+            method: 'POST',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json',
+                'Authorization': Auth,
 
-        },
-        body: JSON.stringify(item)
-    })
-        .then(response => response.json())
+            },
+            body: JSON.stringify(item)
+        })
+        .then(response => {
+            jumpToLogin(response.status)
+            return response.json()
+        })
         .then(() => {
             getItems();
             addNameTextbox.value = '';
@@ -52,15 +55,17 @@ function addItem() {
 
 function deleteItem(id) {
     fetch(`${uri}/${id}`, {
-        method: 'DELETE',
-        headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json',
-            'Authorization': Auth,
-        }
-    })
-        .then(() => getItems())
-        .catch(error => console.error('Unable to delete item.', error));
+            method: 'DELETE',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json',
+                'Authorization': Auth,
+            }
+        })
+        .then(response => {
+            if (!jumpToLogin(response.status))
+                getItems();
+        }).catch(error => console.error('Unable to delete item.', error));
 }
 
 function _displayCount(itemCount) {
@@ -101,6 +106,15 @@ function _displayItems(data) {
         td3.appendChild(deleteButton);
 
     });
-
     users = data;
+}
+
+function jumpToLogin(status) {
+    if (status === 401) {
+        alert("your token got expired,please login ")
+        localStorage.setItem('token', "");
+        location.href = "../index.html";
+        return true;
+    }
+    return false;
 }

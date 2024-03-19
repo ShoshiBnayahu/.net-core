@@ -3,9 +3,9 @@ let tasks = [];
 const token = localStorage.getItem("token");
 const Auth = "Bearer " + JSON.parse(token);
 
+
 function getItems() {
-    fetch(uri,
-        {
+    fetch(uri, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
@@ -13,15 +13,17 @@ function getItems() {
 
             }
         })
-        .then(response => response.json())
+        .then(response => {
+            jumpToLogin(response.status)
+            return response.json()
+        })
         .then(data => _displayItems(data))
         .catch(error => console.error('Unable to get items.', error));
 }
 
 function showUsersLink() {
 
-    fetch('/users',
-        {
+    fetch('/users', {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
@@ -34,8 +36,6 @@ function showUsersLink() {
             if (response.status === 200)
                 document.getElementById('usersLink').innerHTML = "link to users";
         })
-
-
 }
 
 
@@ -46,19 +46,20 @@ function addItem() {
         Name: addNameTextbox.value.trim()
     };
     fetch(uri, {
-        method: 'POST',
-        headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json',
-            'Authorization': Auth,
+            method: 'POST',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json',
+                'Authorization': Auth,
 
-        },
-        body: JSON.stringify(item)
-    })
-        .then(response => response.json())
-        .then(() => {
-            getItems();
-            addNameTextbox.value = '';
+            },
+            body: JSON.stringify(item)
+        })
+        .then((response) => {
+            if (!jumpToLogin(response.status)) {
+                getItems();
+                addNameTextbox.value = '';
+            }
         })
         .catch(error => console.error('Unable to add item.', error));
 }
@@ -83,16 +84,19 @@ function updateItem() {
     };
 
     fetch(`${uri}/${itemId}`, {
-        method: 'PUT',
-        headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json',
-            'Authorization': Auth,
+            method: 'PUT',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json',
+                'Authorization': Auth,
 
-        },
-        body: JSON.stringify(item)
-    })
-        .then(() => getItems())
+            },
+            body: JSON.stringify(item)
+        })
+        .then(response => {
+            if (!jumpToLogin(response.status))
+                getItems();
+        })
         .catch(error => console.error('Unable to update item.', error));
 
     closeEditInput();
@@ -108,14 +112,17 @@ function closeEditInput() {
 
 function deleteItem(id) {
     fetch(`${uri}/${id}`, {
-        method: 'DELETE',
-        headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json',
-            'Authorization': Auth,
-        }
-    })
-        .then(() => getItems())
+            method: 'DELETE',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json',
+                'Authorization': Auth,
+            }
+        })
+        .then(response => {
+            if (!jumpToLogin(response.status))
+                getItems()
+        })
         .catch(error => console.error('Unable to delete item.', error));
 }
 
@@ -169,8 +176,7 @@ function _displayItems(data) {
 const uriOfCurrentUser = '/users/currentUser';
 
 function getUserId() {
-    fetch(uriOfCurrentUser,
-        {
+    fetch(uriOfCurrentUser, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
@@ -178,7 +184,10 @@ function getUserId() {
 
             }
         })
-        .then(response => response.json())
+        .then(response => {
+            jumpToLogin(response.status)
+            return response.json()
+        })
         .then(data => displayUpdateForm(data))
         .catch(error => console.error('Unable to get items.', error));
 }
@@ -201,16 +210,19 @@ function updateUserDetail() {
     };
 
     fetch(uriOfCurrentUser, {
-        method: 'PUT',
-        headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json',
-            'Authorization': Auth,
+            method: 'PUT',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json',
+                'Authorization': Auth,
 
-        },
-        body: JSON.stringify(item)
-    })
-        .then(() => getItems())
+            },
+            body: JSON.stringify(item)
+        })
+        .then(response => {
+            if (!jumpToLogin(response.status))
+                getItems();
+        })
         .catch(error => console.error('Unable to update user.', error));
 
     closeUpdateInput();
@@ -222,7 +234,17 @@ function closeUpdateInput() {
     document.getElementById('upadateForm').style.display = 'none';
 }
 
-function changeUser(){
-    sessionStorage.setItem("changeUser",true);
+function changeUser() {
+    sessionStorage.setItem("changeUser", true);
     location.href = "../index.html";
+}
+
+function jumpToLogin(status) {
+    if (status === 401) {
+        alert("your token got expired,please login ")
+        localStorage.setItem('token', "");
+        location.href = "../index.html";
+        return true;
+    }
+    return false;
 }

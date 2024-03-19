@@ -17,7 +17,7 @@ using Microsoft.IdentityModel.Tokens;
                 issuer,
                 issuer,
                 claims,
-                expires: DateTime.Now.AddDays(30.0),
+                expires: DateTime.Now.AddSeconds(10.0),
                 signingCredentials: new SigningCredentials(key, SecurityAlgorithms.HmacSha256)
             );
 
