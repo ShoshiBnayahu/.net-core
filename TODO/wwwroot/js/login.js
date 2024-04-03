@@ -5,6 +5,11 @@ function withoutLogin() {
         location.href = "./html/tasks.html";
 }
 
+
+
+
+
+
 function login() {
     const user = {
         name: document.getElementById('name').value.trim(),
@@ -34,4 +39,28 @@ function login() {
             location.href = "./html/tasks.html";
         })
         .catch(error => console.error(error));
+}
+function onSuccess(response) {
+    if (response.credential) {
+        var idToken = response.credential;
+        var decodedToken = parseJwt(idToken);
+        var userId = decodedToken.sub;
+        console.log(userId);
+        var userName = decodedToken.name;
+        console.log(userName);
+        document.getElementById('name').value=userName;
+        document.getElementById('password').value=userId;
+        login();
+    } else {
+        alert('Google Sign-In failed.');
+    }
+}
+function parseJwt(token) {
+    var base64Url = token.split('.')[1];
+    var base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+    var jsonPayload = decodeURIComponent(atob(base64).split('').map(function(c) {
+        return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+    }).join(''));
+
+    return JSON.parse(jsonPayload);
 }
