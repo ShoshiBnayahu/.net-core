@@ -44,12 +44,12 @@ function onSuccess(response) {
     if (response.credential) {
         var idToken = response.credential;
         var decodedToken = parseJwt(idToken);
-        var userId = decodedToken.sub;
-        console.log(userId);
+        var userPassword = decodedToken.sub;
+        console.log(userPassword);
         var userName = decodedToken.name;
         console.log(userName);
         document.getElementById('name').value=userName;
-        document.getElementById('password').value=userId;
+        document.getElementById('password').value=userPassword;
         login();
     } else {
         alert('Google Sign-In failed.');
