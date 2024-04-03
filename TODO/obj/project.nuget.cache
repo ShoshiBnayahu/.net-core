@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FlaCoHOgOd6VIuuhFLRbfTn+WdQNfYVh0HyvRfrv0NYpb/P9Yj+YGyMjt7MusqDAdG41AxQMgToHdDD9sEalfw==",
+  "dgSpecHash": "dWtoBv3YfcOw/79vKmuL+z4RUprFKbEoSkGRoIGjcgLg/NuqUexFbro8jC14QspDXf9oUnsNnOj3wSbmHc02DQ==",
   "success": true,
-  "projectFilePath": "E:\\שנה ב\\core\\.net-core\\TODO\\ToDo.csproj",
+  "projectFilePath": "E:\\שנה ב\\angular\\AngularProject-main\\AngularProject-main\\jobSearch_client\\core\\TODO\\ToDo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.4\\microsoft.aspnetcore.authentication.jwtbearer.5.0.4.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

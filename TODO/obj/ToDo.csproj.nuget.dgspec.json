@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\שנה ב\\core\\.net-core\\TODO\\ToDo.csproj": {}
+    "E:\\שנה ב\\angular\\AngularProject-main\\AngularProject-main\\jobSearch_client\\core\\TODO\\ToDo.csproj": {}
   },
   "projects": {
-    "E:\\שנה ב\\core\\.net-core\\TODO\\ToDo.csproj": {
+    "E:\\שנה ב\\angular\\AngularProject-main\\AngularProject-main\\jobSearch_client\\core\\TODO\\ToDo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\שנה ב\\core\\.net-core\\TODO\\ToDo.csproj",
+        "projectUniqueName": "E:\\שנה ב\\angular\\AngularProject-main\\AngularProject-main\\jobSearch_client\\core\\TODO\\ToDo.csproj",
         "projectName": "ToDo",
-        "projectPath": "E:\\שנה ב\\core\\.net-core\\TODO\\ToDo.csproj",
+        "projectPath": "E:\\שנה ב\\angular\\AngularProject-main\\AngularProject-main\\jobSearch_client\\core\\TODO\\ToDo.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "E:\\שנה ב\\core\\.net-core\\TODO\\obj\\",
+        "outputPath": "E:\\שנה ב\\angular\\AngularProject-main\\AngularProject-main\\jobSearch_client\\core\\TODO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
