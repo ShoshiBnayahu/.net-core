@@ -227,3 +227,45 @@ C:\Users\huser\.net-core\todo\obj\Debug\net6.0\refint\ToDo.dll
 C:\Users\huser\.net-core\todo\obj\Debug\net6.0\ToDo.pdb
 C:\Users\huser\.net-core\todo\obj\Debug\net6.0\ToDo.genruntimeconfig.cache
 C:\Users\huser\.net-core\todo\obj\Debug\net6.0\ref\ToDo.dll
+E:\שנה ב\core\.net-core\TODO\bin\Debug\net6.0\appsettings.Development.json
+E:\שנה ב\core\.net-core\TODO\bin\Debug\net6.0\appsettings.json
+E:\שנה ב\core\.net-core\TODO\bin\Debug\net6.0\Data\Task.json
+E:\שנה ב\core\.net-core\TODO\bin\Debug\net6.0\Data\Users.json
+E:\שנה ב\core\.net-core\TODO\bin\Debug\net6.0\ToDo.staticwebassets.runtime.json
+E:\שנה ב\core\.net-core\TODO\bin\Debug\net6.0\ToDo.exe
+E:\שנה ב\core\.net-core\TODO\bin\Debug\net6.0\ToDo.deps.json
+E:\שנה ב\core\.net-core\TODO\bin\Debug\net6.0\ToDo.runtimeconfig.json
+E:\שנה ב\core\.net-core\TODO\bin\Debug\net6.0\ToDo.dll
+E:\שנה ב\core\.net-core\TODO\bin\Debug\net6.0\ToDo.pdb
+E:\שנה ב\core\.net-core\TODO\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\שנה ב\core\.net-core\TODO\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\שנה ב\core\.net-core\TODO\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\שנה ב\core\.net-core\TODO\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\שנה ב\core\.net-core\TODO\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\שנה ב\core\.net-core\TODO\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\שנה ב\core\.net-core\TODO\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\שנה ב\core\.net-core\TODO\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\שנה ב\core\.net-core\TODO\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\שנה ב\core\.net-core\TODO\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\שנה ב\core\.net-core\TODO\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\שנה ב\core\.net-core\TODO\obj\Debug\net6.0\ToDo.csproj.AssemblyReference.cache
+E:\שנה ב\core\.net-core\TODO\obj\Debug\net6.0\ToDo.GeneratedMSBuildEditorConfig.editorconfig
+E:\שנה ב\core\.net-core\TODO\obj\Debug\net6.0\ToDo.AssemblyInfoInputs.cache
+E:\שנה ב\core\.net-core\TODO\obj\Debug\net6.0\ToDo.AssemblyInfo.cs
+E:\שנה ב\core\.net-core\TODO\obj\Debug\net6.0\ToDo.csproj.CoreCompileInputs.cache
+E:\שנה ב\core\.net-core\TODO\obj\Debug\net6.0\ToDo.MvcApplicationPartsAssemblyInfo.cs
+E:\שנה ב\core\.net-core\TODO\obj\Debug\net6.0\ToDo.MvcApplicationPartsAssemblyInfo.cache
+E:\שנה ב\core\.net-core\TODO\obj\Debug\net6.0\staticwebassets\msbuild.ToDo.Microsoft.AspNetCore.StaticWebAssets.props
+E:\שנה ב\core\.net-core\TODO\obj\Debug\net6.0\staticwebassets\msbuild.build.ToDo.props
+E:\שנה ב\core\.net-core\TODO\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ToDo.props
+E:\שנה ב\core\.net-core\TODO\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ToDo.props
+E:\שנה ב\core\.net-core\TODO\obj\Debug\net6.0\staticwebassets.pack.json
+E:\שנה ב\core\.net-core\TODO\obj\Debug\net6.0\staticwebassets.build.json
+E:\שנה ב\core\.net-core\TODO\obj\Debug\net6.0\staticwebassets.development.json
+E:\שנה ב\core\.net-core\TODO\obj\Debug\net6.0\scopedcss\bundle\ToDo.styles.css
+E:\שנה ב\core\.net-core\TODO\obj\Debug\net6.0\ToDo.csproj.CopyComplete
+E:\שנה ב\core\.net-core\TODO\obj\Debug\net6.0\ToDo.dll
+E:\שנה ב\core\.net-core\TODO\obj\Debug\net6.0\refint\ToDo.dll
+E:\שנה ב\core\.net-core\TODO\obj\Debug\net6.0\ToDo.pdb
+E:\שנה ב\core\.net-core\TODO\obj\Debug\net6.0\ToDo.genruntimeconfig.cache
+E:\שנה ב\core\.net-core\TODO\obj\Debug\net6.0\ref\ToDo.dll

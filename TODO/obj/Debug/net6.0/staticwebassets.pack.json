@@ -1,31 +1,31 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\huser\\.net-core\\todo\\wwwroot\\css\\site.css",
+      "Id": "E:\\שנה ב\\core\\.net-core\\TODO\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\huser\\.net-core\\todo\\wwwroot\\html\\tasks.html",
+      "Id": "E:\\שנה ב\\core\\.net-core\\TODO\\wwwroot\\html\\tasks.html",
       "PackagePath": "staticwebassets\\html\\tasks.html"
     },
     {
-      "Id": "C:\\Users\\huser\\.net-core\\todo\\wwwroot\\html\\users.html",
+      "Id": "E:\\שנה ב\\core\\.net-core\\TODO\\wwwroot\\html\\users.html",
       "PackagePath": "staticwebassets\\html\\users.html"
     },
     {
-      "Id": "C:\\Users\\huser\\.net-core\\todo\\wwwroot\\index.html",
+      "Id": "E:\\שנה ב\\core\\.net-core\\TODO\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\huser\\.net-core\\todo\\wwwroot\\js\\login.js",
+      "Id": "E:\\שנה ב\\core\\.net-core\\TODO\\wwwroot\\js\\login.js",
       "PackagePath": "staticwebassets\\js\\login.js"
     },
     {
-      "Id": "C:\\Users\\huser\\.net-core\\todo\\wwwroot\\js\\tasks.js",
+      "Id": "E:\\שנה ב\\core\\.net-core\\TODO\\wwwroot\\js\\tasks.js",
       "PackagePath": "staticwebassets\\js\\tasks.js"
     },
     {
-      "Id": "C:\\Users\\huser\\.net-core\\todo\\wwwroot\\js\\users.js",
+      "Id": "E:\\שנה ב\\core\\.net-core\\TODO\\wwwroot\\js\\users.js",
       "PackagePath": "staticwebassets\\js\\users.js"
     },
     {
