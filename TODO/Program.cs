@@ -74,18 +74,19 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+
 //js
 app.UseDefaultFiles();
 app.UseStaticFiles();
 //js
 
 
-// app.UselogMiddleware("file.log");
+app.UselogMiddleware("file.log");
 
-// Configure the HTTP request pipeline.
+//Configure the HTTP request pipeline.
 
 
-//app.UseHttpsRedirection();
+app.UseHttpsRedirection();
 app.UseRouting();
 
 //auth5

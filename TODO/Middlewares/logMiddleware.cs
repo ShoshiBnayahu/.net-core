@@ -30,10 +30,14 @@ public class logMiddleware
 
     private void WriteLogToFile(string logMessage)
         {
-            using (StreamWriter sw = File.AppendText(logFilePath))
+            lock (this)
+            {
+             using (StreamWriter sw = File.AppendText(logFilePath))
             {
                 sw.WriteLine(logMessage);
+            } 
             }
+          
         }
 }
 
