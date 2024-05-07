@@ -1,1 +1,32 @@
-[{"Id":0,"Name":"שושי בניהו","Password":"101370588916984735522","IsAdmin":true},{"Id":2,"Name":"a","Password":"a","IsAdmin":true},{"Id":3,"Name":"c","Password":"c","IsAdmin":false}]
+[
+    {
+        "Id": 0,
+        "Name": "שושי בניהו",
+        "Password": "101370588916984735522",
+        "IsAdmin": true
+    },
+    {
+        "Id": 1,
+        "Name": "Michal Tzadok",
+        "Password": "103973947260806219652",
+        "IsAdmin": true
+    },
+    {
+        "Id": 2,
+        "Name": "Dan",
+        "Password": "1234567",
+        "IsAdmin": false
+    },
+    {
+        "Id": 3,
+        "Name": "Ron",
+        "Password": "6543210",
+        "IsAdmin": false
+    },
+    {
+        "Id": 4,
+        "Name": "Gad",
+        "Password": "9994443",
+        "IsAdmin": false
+    }
+]
